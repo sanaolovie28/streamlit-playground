@@ -10,7 +10,7 @@ page = st.sidebar.selectbox(
     ["Home", "Create Entry", "My Diary", "Mood Tracker", "About"]
 )
 
-# HOME
+#HOME
 if page == "Home":
     st.header("Welcome to PhotoDiary")
     name = st.text_input("Enter your name")
@@ -24,7 +24,7 @@ if page == "Home":
 
     st.metric("Mood Score", rating)
 
-# CREATE ENTRY
+#CREATE ENTRY
 elif page == "Create Entry":
 
     st.header("Create a New Diary Entry")
