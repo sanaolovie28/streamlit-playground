@@ -3,7 +3,7 @@ from datetime import date
 
 st.set_page_config(page_title="PhotoDiary", layout="wide")
 
-st.title("📷 My PhotoDiary")
+st.title("MEMONTIA PHOTODIARY")
 
 page = st.sidebar.selectbox(
     "Navigation",
@@ -12,7 +12,7 @@ page = st.sidebar.selectbox(
 
 #HOME
 if page == "Home":
-    st.header("Welcome to PhotoDiary")
+    st.header("Welcome to PhotoDiary! ^^")
     name = st.text_input("Enter your name")
 
     mood = st.radio(
